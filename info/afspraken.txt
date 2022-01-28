@@ -1,0 +1,23 @@
+Java
+-----
+klassenamen beginnen steeds met hoofdletter
+instantienamen zijn steeds camelcase
+stricte scheiding van diverse layers: ui - data - databank - utilities - enz...
+
+Databank
+--------
+gebruik nooit het koppelteken - teken in de benamingen. Het wordt aanvaard, maar geeft moeilijkheden. 
+    enkel underscore _ is mogelijk
+namen van de tabellen steeds in kleine letters en meervoudsvorm 
+    vb accounts, werknemers maar niet werknemer
+naam van associatieve tabellen bestaat uit naamtabel1_naamtabel2
+    vb werknemers_contacts
+primary keys steeds dezelfde naam id
+foreign keys steeds dezelfde samenstelling nl naamparenttabel_id
+    vb werknemers_id  is de kolom met FK naar de tabel werknemers in de tabel accounts.
+
+Test push Ali
+--------
+
+UI
+---
